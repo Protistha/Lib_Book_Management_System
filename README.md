@@ -8,7 +8,28 @@ Features:
 4. Issue book
 5. Display list of issued books
 6. Cross platform screen clearing (cls for Windows, clear for Linux/Unix).
-   Prerequisites
+Prerequisites
 1. GCC or any C compiler
 2. A terminal/command prompt
-   
+Usage steps-
+1. After installing a C compiler, compile the program via the following commands:
+For Windows(PowerShell / CMD)
+gcc library.c -o library
+For Linux/macOS
+gcc library.c -o library
+2. Run the program
+For Windows
+library.exe
+For Linux/ macOS
+./library
+When the program starts, you will see a menu:
+<<----- Library Book Management System ----->>
+
+1. Issue Book
+2. Add New Book
+3. Delete Book
+4. Display Books List
+5. Issued Books List
+0. Exit
+Contributions: This project is solely created by me and though it is a very basic menu driven program yet I hope to make improvements to it in the future.
+-Protistha Chowdhury
